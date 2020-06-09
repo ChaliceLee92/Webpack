@@ -1,0 +1,82 @@
+.authorize {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 60rpx;
+    padding-right: 60rpx;
+
+    & image {
+        margin-top: 120rpx;
+        width: 160rpx;
+        height: 160rpx;
+        margin-bottom: 80rpx;
+    }
+
+    & .bold {
+        font-size: 32rpx;
+        text-align: center;
+        color: #000;
+        margin-bottom: 20rpx;
+        font-weight: bold;
+    }
+
+    & .normal {
+        font-size: 30rpx;
+        text-align: center;
+        color: #666;
+        margin-bottom: 80rpx;
+    }
+
+    & button {
+        width: 100%;
+        height: 88rpx;
+        border-radius: 8rpx;
+        background: #3aac16;
+
+        & view {
+            color: #fff;
+            font-size: 32rpx;
+        }
+
+    }
+
+    & .logintip {
+        font-size: 28rpx;
+        font-family: PingFangSC;
+        font-weight: 400;
+        color: rgba(153, 153, 153, 1);
+        line-height: 50rpx;
+        margin-bottom: 20rpx;
+    }
+
+    & .cancelview {
+        margin-top: 20rpx;
+        width: 100%;
+        height: 88rpx;
+        border-radius: 8rpx;
+        border: 1rpx solid rgba(153, 153, 153, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & .canceltext {
+            font-size: 32rpx;
+            font-family: PingFangSC;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            line-height: 50rpx;
+        }
+    }
+
+
+}
+
+page {
+    background: #f3f7f9;
+}

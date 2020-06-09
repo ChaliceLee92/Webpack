@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/class/index",
+    "pages/poems/index",
+    "pages/me/index",
+    "pages/authSetting/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": false,
+    "color": "#c0c4cc",
+    "selectedColor": "#1f1f21",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "assets/tabbar/tabiconHome.png",
+      "selectedIconPath": "assets/tabbar/tabiconHomeActived.png"
+    },
+    {
+      "pagePath": "pages/class/index",
+      "text": "班级",
+      "iconPath": "assets/tabbar/tabiconclass.png",
+      "selectedIconPath": "assets/tabbar/tabiconclass_actived.png"
+    },
+    {
+      "pagePath": "pages/poems/index",
+      "text": "诗集",
+      "iconPath": "assets/tabbar/tabicon1.png",
+      "selectedIconPath": "assets/tabbar/tabicon1Actived.png"
+    },
+    {
+      "pagePath": "pages/me/index",
+      "text": "我的",
+      "iconPath": "assets/tabbar/tabicon2.png",
+      "selectedIconPath": "assets/tabbar/tabicon2Actived-v2.png"
+    }
+    ]
+  },
+  "debug": true,
+  "subPackages":[],
+  "preloadRule": {},
+  "usingComponents": {},
+  "networkTimeout": {
+    "request": 120000
+  },
+  "resizable": false,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredBackgroundModes": ["audio", "location"],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

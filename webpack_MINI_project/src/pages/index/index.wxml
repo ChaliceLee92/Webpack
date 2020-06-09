@@ -1,0 +1,9 @@
+<wxs src="./../../wxs/greeting.wxs" module="greeting" />
+<import src="./../../templates/index" />
+<view>{{greeting()}}</view>
+<view class="container">
+    <template is="item" data="{{text: 'forbar'}}" />
+    <view class="userinfo"></view>
+</view>
+
+<include src="./../../templates/header.wxml" />

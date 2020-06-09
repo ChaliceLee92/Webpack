@@ -1,0 +1,29 @@
+/**index.wxss**/
+.container{
+  .userinfo {
+    width: 100rpx;
+    height: 100rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./../../assets/tabbar/tabicon1Actived.png');
+  }
+}
+
+
+
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
